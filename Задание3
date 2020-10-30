@@ -1,0 +1,23 @@
+package gek;
+
+public class Main {
+    public static void main(String[] args)
+    {
+        float E = 1.2f;
+        float R = 1.3f;
+        float O = 5.71f;
+        float A = 3f;
+
+        float expressionResult = calculateExpression (E,R,O,A);
+          System.out.println("Результат вычислений" + expressionResult);
+
+
+    }
+
+    public static float calculateExpression ( float a,  float b, float c, float d)
+    {
+        return a*(b+(c/d));
+
+
+    }
+}

@@ -1,0 +1,44 @@
+package gek;
+
+public class Main {
+    public static void main(String[] args)
+    {
+     int x=10;
+     int y=9;
+
+
+     boolean result= isBetween18and28(x,y);
+
+
+
+        System.out.println("Результат\n"+result);
+
+
+
+
+    }
+
+public static boolean isBetween18and28(int a,int b)
+    {
+        int sum=a+b;
+
+if (sum<18||sum>28){
+
+    System.out.println("False");
+}
+
+boolean res = sum>18&&sum<28;
+
+
+
+
+
+
+        return res;
+
+
+
+    }
+
+}
+

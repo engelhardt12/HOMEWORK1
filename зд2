@@ -1,0 +1,45 @@
+package gek;
+
+public class Main {
+    private static String ExceptionResult;
+
+    public static void main(String[] args) {
+        //peremennaja x
+        float x = 12f;
+
+        int y = 2;
+
+        char c='a';// создание переменной, которая использует символы
+
+        double pi=3.14;
+
+        byte f=54;
+
+        short a=1;
+
+        boolean isProgrammingFun=true;
+
+        System.out.println(isProgrammingFun);
+
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(c);
+        System.out.println(pi);
+        System.out.println(f);
+        System.out.println(a);
+
+
+        //float calculateExpression;
+        //float expressionResult= calculateExpression( x,  y,  c);
+       // System.out.println("Результат вычислений" + ExceptionResult);
+    }
+
+
+
+
+    }
+
+
+
+
+

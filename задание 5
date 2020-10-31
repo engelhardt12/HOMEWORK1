@@ -1,0 +1,25 @@
+package gek;
+
+public class Main {
+    public static void main(String[] args) {
+        int a = -8;
+        int out = doFour(a);
+
+    }
+    static int doFour ( int a){
+
+        System.out.println("\nОтвет");
+        if (a > 0) {
+            System.out.println("Число\n " + a + "\nположительное.");
+        }
+        else if(a<0) {
+            System.out.println("Число\n " + a + " \nотрицательное.");
+        }
+         else if (a == 0) {
+            System.out.println("Number\n"+ a + "\nis zero but out is positive"); // это ноль, но оно является положительным
+        }
+
+
+        return a;
+    }
+}

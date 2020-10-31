@@ -1,0 +1,22 @@
+package gek;
+
+public class Main {
+    public static void main(String[] args)
+    {
+        String name="";
+       printName(name= "Елизабетт");
+
+
+    }
+
+     static void printName(String name) {
+        System.out.println("\nANSWER");
+        System.out.println("Процеветания Империи, " + name + "!");
+
+
+    }
+
+
+
+
+}

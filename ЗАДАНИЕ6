@@ -1,0 +1,14 @@
+package gek;
+
+public class Main {
+    public static void main(String[] args) {
+       int x=-1;
+        boolean result= doFive(x);
+        System.out.println("Итог:" + result);
+    }
+    static boolean doFive ( int a){
+        System.out.println("\nОТВЕТ");
+        if (a < 0) return true;
+        return false;
+    }
+}
